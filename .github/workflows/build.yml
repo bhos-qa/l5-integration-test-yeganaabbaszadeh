@@ -20,7 +20,7 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      - name: Build
+      - name: Build Application
         run: ./gradlew build
 
       - name: Integration Testing
